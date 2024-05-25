@@ -1,0 +1,103 @@
+
+body {
+    
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(255, 249, 227);
+    flex-direction: column;
+}
+
+#bannerimage {
+    width: 100%;
+    background-image:  url("Meet_ the_Team.jpg");
+    height: 305px;
+    /* background-color: #d84b4b; */
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+
+.header {
+    display: block;
+    margin: 10px 0;
+    background-color: #d84b4b; /* pink color */
+    border-radius: 10px;
+    padding: 6px;
+    text-align: center;
+    color: white;
+    width: 80%;
+    max-width: 300px;
+}
+
+.intro {
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    max-width: 800px;
+}
+
+
+hr {
+    border: 0;
+    border-top: 2px dashed #ccc;
+    width: 100%;
+    max-width: 800px;
+    margin: 20px 0;
+}
+
+.section-title {
+    display: block;
+    margin: 10px ;
+    background-color: #d84b4b; 
+    border-radius: 10px;
+    padding: 10px ;
+    text-align: center;
+    color: white;
+    width: 50%;
+    max-width: 400px;
+}
+
+.team {
+    display: inherit;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 500%;
+    max-width: 1000px;
+    padding: 10px;
+}
+
+.team-member {
+    text-align: center;
+    margin: 20px;
+}
+
+.team-member img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.team-member .name {
+    font-size: large;
+    margin: 10px 0 0;
+    font-weight: bold;
+    color: black;
+}
+
+.team-member .position {
+    font-size: medium;
+    margin: 1%;
+    color:  #d84b4b;
+    font-style: italic;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    .team {
+        flex-direction: column;
+        align-items: center;
+    }
+}
