@@ -1,0 +1,153 @@
+<!-- the taste that make you feel awesome -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Page</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sevillana&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    
+
+</head>
+<body>
+    <header>
+        
+        <div class="header-overlay">
+            <!-- <h1 class="company-name">Delicious Food <br> Best Service</h1> -->
+            
+            
+            <div class="black-strip">
+            <span class="fine">Fine</span>
+            <span class="dine">Dine</span>
+            
+            <span class="address">LG 09, Sapphire Amrapali, Sector-45, Noida</span>
+        </div>
+        <div class="black-strip-1"></div>
+        <!-- <h1 class="company-name">Delicious Food <br> & Best Service</h1> -->
+    </header>
+        
+
+
+    <main>
+        <!-- Main content of your webpage goes here -->
+        <section class="contents">
+            
+            <div class="content">
+                
+                   <b><h1>The Taste <br> that make you <br> feel awesome</h1>
+                    
+                </div>
+
+        <div class="form-table">       
+        <form  class="table" id="table-booking-form" action="https://formsubmit.co/093b00b1d2c2c2809d962034d7b96854" method="POST">
+            <h2>Book Your Table</h2>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone"  name="phone" required>
+            </div>
+            <div class="form-group">
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date" required>
+            </div>
+            <div class="form-group">
+                <label for="time">Time:</label>
+                <input type="time" id="time" name="time" required>
+            </div>
+            <div class="form-group">
+                <button type="submit">Send</button>
+            </div>
+      
+        </form></div> 
+        </section>
+        
+        
+        <div class="about">
+        <section id="about">
+            <h1>WELCOME TO FINE DINE</h1>
+            <h2>Best Food & Best Ambience</h2>
+            <p>Welcome to Fine Dine, where culinary excellence meets a delightful dining experience. Our restaurant is committed to serving exquisite dishes made from the freshest ingredients, crafted with passion and care. Whether you're here for a casual meal or a special occasion, we strive to provide an unforgettable gastronomic journey.</p>
+        </section>
+        <section id="images">
+            <div class="image-row">
+                <div class="image-container">
+                    <img src="assets/welcome.jpeg" alt="welcome_image">
+                    <h3>Warm Welcome</h3>
+                    <p>Relax, savor, and enjoy our <br>deliciously crafted culinary delights.</p>
+                </div>
+                <div class="image-container">
+                    <img src="assets/recipe.jpg" alt="recipe_image">
+                    <h3>Best Recipes</h3>
+                    <p> Discover our best recipes: <br>a symphony of flavors in every bite</p>
+                </div>
+                <div class="image-container">
+                    <img src="assets/ambiance.jpeg" alt="ambiance_image">
+                    <h3>Good Vibe</h3>
+                    <p>Enjoy our FineDine's great ambiance: <br>cozy, inviting, and unforgettable</p>
+                </div>
+            </div>
+        </section>
+    </div> <br><br><br><br>
+            
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+        <script>
+            function sendEmail(){
+                Email.send({
+                    Host : "smtp.elasticemail.com",
+                    Username : "username",
+                    Password : "password",
+                    To : 'them@website.com',
+                    From : "you@isp.com",
+                    Subject : "This is the subject",
+                    Body : "And this is the body"
+                }).then(
+                message => alert(message)
+                )};
+        </script>
+
+
+    </main>
+
+    
+    <section class="chef">
+
+        <div class="chef-img">   
+            <img src="assets/chef.jpg" >   
+            </div> 
+
+        <div class="chef-content">
+                <h1> WORDS FROM OUR CHEF </h1>
+                <p>Welcome to our culinary sanctuary, where every dish <br> 
+                    tells a story of passion and creativity. As the chef, We 
+                    infuse <br> each plate with vibrant flavors and fresh, 
+                    handpicked ingredients. <br> Our ambiance is an eclectic 
+                    blend of cozy and chic, with an <br> inviting atmosphere that 
+                    makes every visit a celebration. Our staff <br> embodies 
+                    warmth and professionalism, ensuring your experience 
+                    is <br>as delightful as our cuisine. From the sizzling 
+                    entrees to the decadent <br> desserts, each bite is crafted 
+                    to ignite your senses. <br> Join us for an unforgettable journey 
+                    where exquisite food, <br> enchanting ambiance, and exceptional 
+                    service harmonize beautifully.</p>
+                                
+             </div>
+         </section>
+
+
+    <section class="end">
+    </section>
+
+</body>
+</html>
