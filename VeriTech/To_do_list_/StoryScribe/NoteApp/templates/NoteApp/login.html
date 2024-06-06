@@ -1,0 +1,40 @@
+{% extends 'NoteApp/base.html' %}
+<!-- {%  block title %} Sign in {% endblock %} -->
+
+
+<!-- <title>Sign Up</title> -->
+{% block content %}
+
+
+<section class="vh-100">
+
+    <div class="container-fluid h-custom" >
+        <div class="row d-flex justify-content-center align-items-center">
+        <div class="col-md-9 col-lg-6 col-xl-5" >
+           <br> <img src="https://penzu.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero-image-03.9070c3b3.jpg&w=640&q=75" width="5000" height="6000"
+            class="img-fluid" alt="Sample image">
+        
+        </div></br>
+        <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
+
+
+    <div class='row'>
+        <div>
+            <h1>
+                <p class="block whitespace-nowrap" font-family="myFirstFont">Your Private</p>
+                <p class="block"> 100% customizable</p>
+                <p class="block whitespace-nowrap">online journal</p>
+            </h1>
+            <br><button class ='logbutton' >
+                <a href = "{% url 'social:begin'  'google-oauth2' %}" > Login with Google </a>
+            </button> </br>      
+        </div>
+        
+    </div>
+
+    </body>
+
+
+{% endblock %}
+
+class="h2 font-merriweather text-zinc-800 mb-4"
